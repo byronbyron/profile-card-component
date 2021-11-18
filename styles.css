@@ -1,0 +1,65 @@
+@import url('normalize.css');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    height: 100vh;
+    background: url('./images/pattern-background-desktop.svg') top center no-repeat hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.card-img {
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+
+.card-body {
+    padding: 1.875rem 1.5rem 1.375rem 1.5rem;
+}
+
+.card-text {
+    text-align: center;
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-text p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
