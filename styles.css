@@ -67,7 +67,7 @@ p {
     background-color: #fff;
     background-clip: border-box;
     border-radius: 1rem;
-    box-shadow: 0 1rem 1.5rem 0.5rem rgb(0 0 0 / 10%);
+    box-shadow: 0 2rem 6rem -2rem rgb(0 0 0 / 50%);
     text-decoration: none;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -75,7 +75,7 @@ p {
 .card:hover,
 .card:active {
     transform: scale3d(1.03, 1.03, 1.0);
-    box-shadow: 0 0.5rem 1rem 0.25rem rgb(0 0 0 / 20%);
+    box-shadow: 0 2rem 4rem -2rem rgb(0 0 0 / 80%);
 }
 
 .card-img {
@@ -91,11 +91,17 @@ p {
 }
 
 .card-body img {
+    display: block;
+}
+
+.card-profile-image {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 5px solid white;
+    border-radius: 100%;
+    overflow: hidden;
 }
 
 .card-body h1 {
