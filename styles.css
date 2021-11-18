@@ -21,7 +21,7 @@ body {
     background-image: url('./images/bg-pattern-top.svg'),
                       url('./images/bg-pattern-bottom.svg');
     background-size: 500px;
-    background-position: -300px -300px, bottom -200px right -300px;
+    background-position: -320px -290px, bottom -240px right -300px;
     background-repeat: no-repeat;
     background-color: var(--dark-cyan);
 }
@@ -29,7 +29,7 @@ body {
 @media (min-width: 768px) {
     body {
         background-size: 1000px;
-        background-position: -300px -550px, bottom -640px right -250px;
+        background-position: -300px -540px, bottom -640px right -250px;
     }
 }
 
@@ -67,7 +67,6 @@ p {
     background-color: #fff;
     background-clip: border-box;
     border-radius: 1rem;
-    margin-bottom: 3rem;
     box-shadow: 0 1rem 1.5rem 0.5rem rgb(0 0 0 / 10%);
     text-decoration: none;
     transition: transform 0.3s, box-shadow 0.3s;
