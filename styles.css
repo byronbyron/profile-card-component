@@ -67,6 +67,7 @@ p {
     background-color: #fff;
     background-clip: border-box;
     border-radius: 1rem;
+    overflow: hidden;
     box-shadow: 0 2rem 6rem -2rem rgb(0 0 0 / 50%);
     text-decoration: none;
     transition: transform 0.3s, box-shadow 0.3s
@@ -80,9 +81,9 @@ p {
 
 .card-img {
     display: block;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    width: 100%
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .card-body {
